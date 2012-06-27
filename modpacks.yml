@@ -1,8 +1,22 @@
-modpacks:
-  earth2me: 'Earth2Me Distro'
-  technicssp: 'Technic SSP'
-  tekkit: 'Tekkit'
-  yogbox: 'Yogbox'
-  voxelmodpack: 'VoxelModPack'
-  hackslashmine: 'Hack Slash Mine'
-  vanilla: 'Vanilla'
+modpacks: !ModPackConfig
+  earth2me: !ModPack
+    label: 'Earth2Me Tekkit'
+    url: 'http://mc.earth2me.com/x/$1%s/modpack.yml'
+  technicssp: !ModPack
+    label: 'Technic SSP'
+    url: 'http://mirror.technicpack.net/Technic/$1%s/modpack.yml'
+  tekkit: !ModPack
+    label: 'Tekkit'
+    url: 'http://mirror.technicpack.net/Technic/$1%s/modpack.yml'
+  yogbox: !ModPack
+    label: 'Yogbox'
+    url: 'http://mirror.technicpack.net/Technic/$1%s/modpack.yml'
+  voxelmodpack: !ModPack
+    label: 'VoxelModPack'
+    url: 'http://mirror.technicpack.net/Technic/$1%s/modpack.yml'
+  hackslashmine: !ModPack
+    label: 'Hack Slash Mine'
+    url: 'http://mirror.technicpack.net/Technic/$1%s/modpack.yml'
+  vanilla: !ModPack
+    label: 'Vanilla'
+    url: 'http://mirror.technicpack.net/Technic/$1%s/modpack.yml'

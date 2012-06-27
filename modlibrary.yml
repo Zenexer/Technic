@@ -1,3 +1,9 @@
+globals:
+  technic-mirrors: &technic-mirrors
+    - 'http://mirror.technicpack.net/Technic/mods/$1%s'
+  earth2me-mirrors: &earth2me-mirrors
+    - 'http://mc.earth2me.com/x/technic/mods/$1%s'
+
 mods:
   basemods:
     name: "Jar modification Mods"
@@ -5,6 +11,7 @@ mods:
     installtype: "zip"
     modtype: "content"
     link: ""
+    mirrors: *technic-mirrors
     versions:
       hackslashmine-v0.6.0:
       hackslashmine-v0.5.3:
@@ -55,6 +62,7 @@ mods:
   adventureitems:
     name: "Adventure Items"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.1:
       v1.2.3:
@@ -62,18 +70,21 @@ mods:
   airships:
     name: "Airships"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.2.3:
       v1.2.5:
   armorstand:
     name: "Armor stand mod"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.1:
       v1.2.3:
       v1.2.5:
   balkonsweaponmod:
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v8.6:
       v8.5:
@@ -83,12 +94,14 @@ mods:
       v8.1:
   battletowers:
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.1:
       v1.2.3:
       v1.2.5:
   betterdungeons:
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v0.932.1:
       v0.931:
@@ -104,6 +117,7 @@ mods:
     installtype: "zip"
     modtype: "content"
     link: "http://www.mod-buildcraft.com/"
+    mirrors: *technic-mirrors
     versions:
       v3.1.5:
       v3.1.4:
@@ -128,6 +142,7 @@ mods:
           baseforge: 1.2.3
   buildcraft-additionalpipes:
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v3.1.0:
       v3.0.10:
@@ -137,10 +152,12 @@ mods:
       v2.1.3:
   buildcraft-additionalpower:
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v0.1.1:
   buildcraft-logisticspipes:
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v0.2.5b:
       v0.2.4a:
@@ -154,6 +171,7 @@ mods:
   buildcraft-objects:
     name: "BuildCraft Objects"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v100:
       v85:
@@ -165,6 +183,7 @@ mods:
   caruins:
     name: "CARuins"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v2.3.0:
   chargingbench:
@@ -173,6 +192,7 @@ mods:
     installtype: "zip"
     modtype: "content"
     link: "http://forum.industrial-craft.net/index.php?page=Thread&threadID=929"
+    mirrors: *technic-mirrors
     versions:
       v1.95b:
       v1.81-1:
@@ -186,6 +206,7 @@ mods:
     name: "CodeChickenCore"
     description: "Required by Chicken Bones' Mods"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v0.5.3:
       v0.5.2:
@@ -198,6 +219,7 @@ mods:
     installtype: "zip"
     modtype: "content"
     link: "http://www.minecraftforum.net/topic/892282-11-computercraft-121/"
+    mirrors: *technic-mirrors
     versions:
       v1.33:
       v1.31:
@@ -208,6 +230,7 @@ mods:
     name: "CraftGuide"
     description: "Quick access to a list of every crafting recipe in the game!"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.4.4:
       v1.4.1:
@@ -222,6 +245,7 @@ mods:
     modtype: "content"
     link: "http://www.minecraftforum.net/topic/856538-100-crafting-table-ii-v15-171211/"
     optional: true
+    mirrors: *technic-mirrors
     versions:
       v1.5:
       v1.6.2:
@@ -233,16 +257,19 @@ mods:
     modtype: "content"
     link: "http://www.minecraftforum.net/topic/1189975-b18mc125-craftingtableiii-bug-fixs-more-mod-support/"
     optional: true
+    mirrors: *technic-mirrors
     versions:
       v1.8:
   crystalwing:
     name: "Crystal Wing"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.2.5.a:
   custommobspawner:
     name: "Custom Mob Spawner"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.4.3:
       v1.4.1:
@@ -250,6 +277,7 @@ mods:
   doorfix:
     name: "Door Fix"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v2.1:
   ee:
@@ -257,6 +285,7 @@ mods:
     description: ""
     installtype: "zip"
     modtype: "content"
+    mirrors: *technic-mirrors
     versions:
       v5.7.3:
       v6.18:
@@ -266,6 +295,7 @@ mods:
     description: ""
     installtype: "zip"
     modtype: "content"
+    mirrors: *technic-mirrors
     versions:
       v1.4.6.5:
       v1.4.6.1:
@@ -279,6 +309,7 @@ mods:
   elementalcreepers:
     name: "Elemental Creepers"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v2.3r2_mp:
       v2.0:
@@ -289,6 +320,7 @@ mods:
     installtype: "zip"
     modtype: "content"
     link: "http://www.minecraftforum.net/topic/909223-100181-chickenbones-mods/"
+    mirrors: *technic-mirrors
     versions:
       v1.0.2:
       v1.0.1v2:
@@ -297,6 +329,7 @@ mods:
   enderstorage:
     name: "EnderStorage"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.1.3:
       v1.1.1:
@@ -304,11 +337,13 @@ mods:
   floatingruins:
     name: "Floating Ruins"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.0.0:
   floodgate:
     name: "Floodgates"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.1:
   forestry:
@@ -317,6 +352,7 @@ mods:
     installtype: "zip"
     modtype: "content"
     link: "http://www.minecraftforum.net/topic/700588-100smp-forestry-for-minecraft-tree-farms-automated/"
+    mirrors: *technic-mirrors
     versions:
       v1.4.0.4:
       v1.4.0.3:
@@ -337,6 +373,7 @@ mods:
     installtype: "zip"
     modtype: "content"
     link: "http://forum.industrial-craft.net/index.php?page=Board&boardID=58"
+    mirrors: *technic-mirrors
     versions:
       v1.97:
       v1.95b:
@@ -362,6 +399,7 @@ mods:
     installtype: "zip"
     modtype: "content"
     link: "http://forum.industrial-craft.net/index.php?page=Thread&threadID=1174"
+    mirrors: *technic-mirrors
     versions:
       v4.1:
       v4.0:
@@ -372,6 +410,7 @@ mods:
     name: "IC2 Compact Solars"
     description: ""
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v2.3.2.10:
       v2.2.0.5:
@@ -379,6 +418,7 @@ mods:
   ic2-nuclearcontrol:
     name: "IC2 Nuuclear Control"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.1.9b:
       v1.1.8:
@@ -387,11 +427,13 @@ mods:
   ic2-transformers:
     name: "IC2 Transformers"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.2:
   immibiscore:
     name: "Immibis Core"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v49.0.7:
       v49.0.4:
@@ -399,6 +441,7 @@ mods:
   ingameinfo:
     name: "In Game Info"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.2.5.d:
   inventorytweaks:
@@ -408,6 +451,7 @@ mods:
     modtype: "tweak"
     link: "http://www.minecraftforum.net/topic/323444-100spsmp-inventory-tweaks-135-dec-24/"
     optional: true
+    mirrors: *technic-mirrors
     versions:
       v1.41b:
       v1.40b:
@@ -423,6 +467,7 @@ mods:
   ironchests:
     name: "Iron Chests"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v3.4.2.28:
       v3.3.1.21:
@@ -430,11 +475,13 @@ mods:
   lectern:
     name: "Lectern"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       ssp-1.2.5:
   macros:
     name: "Macro/Keybind Mod"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       0.8.5_for_1.2.3:
       0.8.6_for_1.2.4:
@@ -444,6 +491,7 @@ mods:
     description: ""
     installtype: "zip"
     modtype: "audio"
+    mirrors: *technic-mirrors
     versions:
       v12:
       v11:
@@ -452,6 +500,7 @@ mods:
   millenaire:
     name: "Millenaire"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v2.7.4:
       v2.5.9:
@@ -474,12 +523,14 @@ mods:
   minaptics:
     name: "Minaptics"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       1.2.3r12vbox:
       1.2.4r13vbox:
   minions:
     name: "Minecraft Minions"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.1:
       v1.2.3:
@@ -490,6 +541,7 @@ mods:
     installtype: "zip"
     modtype: "content"
     link: "http://www.minecraftforum.net/topic/554413-100smp-pcs-mods-minefactory-reloaded-power-converters-and-more-updated-dec-19th/"
+    mirrors: *technic-mirrors
     versions:
       v1.4.1_01:
         dependencies:
@@ -513,6 +565,7 @@ mods:
   minecolony:
     names: "Minecolony"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v19yb:
       v17yb:
@@ -524,6 +577,7 @@ mods:
     modtype: "tweak"
     link: "http://www.minecraftforum.net/topic/680231-181-minecraft-console-v10/"
     optional: true
+    mirrors: *technic-mirrors
     versions:
       v1.2:
         dependencies:
@@ -534,6 +588,7 @@ mods:
   mocreatures:
     installtype: "zip"
     name: "Mo Creatures"
+    mirrors: *technic-mirrors
     versions:
       v3.6.2:
       v3.3.0:
@@ -542,11 +597,13 @@ mods:
   morefuel:
     installtype: "zip"
     name: "More Fuel"
+    mirrors: *technic-mirrors
     versions:
       v1.7:
   nei:
     name: "Not Enough Items"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.2.2:
       v1.2.0:
@@ -557,6 +614,7 @@ mods:
     installtype: "zip"
     modtype: "content"
     link: "http://www.minecraftforum.net/topic/554413-100smp-pcs-mods-minefactory-reloaded-power-converters-and-more-updated-dec-19th/#no"
+    mirrors: *technic-mirrors
     versions:
       v1.2.1:
       v1.1.2:
@@ -570,6 +628,7 @@ mods:
   pfaeff:
     name: "Pfaeff's Mods"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.1:
   powerconverters:
@@ -577,6 +636,7 @@ mods:
     description: ""
     installtype: "zip"
     modtype: "content"
+    mirrors: *technic-mirrors
     versions:
       v1.3.4:
       v1.3.1_01:
@@ -587,6 +647,7 @@ mods:
     installtype: "zip"
     modtype: "content"
     link: "http://www.minecraftforum.net/topic/701990-100-railcraft-221-forge-smp/"
+    mirrors: *technic-mirrors
     versions:
       v5.3.2:
       v5.2.4:
@@ -621,6 +682,7 @@ mods:
     installtype: "zip"
     modtype: "content"
     link: "http://www.eloraam.com/"
+    mirrors: *technic-mirrors
     versions:
       v2.0.5b2:
       v2.0.5b1:
@@ -645,6 +707,7 @@ mods:
     modtype: "tweak"
     link: "http://www.minecraftforum.net/topic/482147-100b181b19pre5jan01-reis-minimap-v29-01/"
     optional: true
+    mirrors: *technic-mirrors
     versions:
       v3.2_03:
       v3.0_04-1.2.5:
@@ -657,6 +720,7 @@ mods:
   ropeplus:
     name: "Ropes +"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.1:
       v1.1yb:
@@ -664,22 +728,26 @@ mods:
   sensibleenchanting:
     name: "Sensible Enchanting"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v4.9:
   shelf:
     name: "Shelf"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.1:
       v1.2.3:
   smartmoving:
     name: "Smart Moving"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v8.5:
   somnia:
     name: "Somnia"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v24:
       v23:
@@ -687,11 +755,13 @@ mods:
   startinginventory:
     name: "Starting Inventory"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.2.5.a:
   thaumcraft:
     name: "Thaumcraft"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v2.1.6c:
       v2.1.3b:
@@ -709,17 +779,20 @@ mods:
   tok:
     name: "Tales of Kingdoms"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.3.0.3:
   tomes:
     name: "Tomes"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       ssp-1.2.5:
       v4:
   treecapitator:
     name: "Treecapitator"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.2.5.e:
       v1.1:
@@ -728,6 +801,7 @@ mods:
   tubestuff:
     name: "Tube Stuff"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v49.0.7:
       v49.0.5:
@@ -735,12 +809,14 @@ mods:
   twilightforest:
     name: "Twilight Forest"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.6r2:
       v1.7.1:
   voxelget:
     name: "VoxelGET"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       0.5.5_mc1.2.3:
       0.5.6_mc1.2.4:
@@ -748,6 +824,7 @@ mods:
   voxelpacket:
     name: "VoxelPacket"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       1.0.2_client_obf_mc1.2.3:
       1.0.1_mc1.2.4:
@@ -755,6 +832,7 @@ mods:
   voxelplayer:
     name: "VoxelPlayer"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v8.1.0:
       0.6.1_mc1.2.4:
@@ -762,6 +840,7 @@ mods:
   voxeltextures:
     name: "VoxelTextures"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       0.4.0_mc1.2.3:
       0.4.1_mc1.2.4:
@@ -770,6 +849,7 @@ mods:
   voxelworld:
     name: "VoxelWorld"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v8.1.0:
   wirelessredstone:
@@ -778,6 +858,7 @@ mods:
     installtype: "zip"
     modtype: "content"
     link: "http://www.minecraftforum.net/topic/328725-100wireless-redstone-v15/"
+    mirrors: *technic-mirrors
     versions:
       v1.5-1.2.5:
       v1.5.3:
@@ -797,6 +878,7 @@ mods:
     installtype: "zip"
     modtype: "UI"
     link: "http://www.minecraftforum.net/topic/885099-11-worldeditcui-worldedit-client-user-interface-v11a/"
+    mirrors: *technic-mirrors
     versions:
       v1.0:
       v1.1:
@@ -805,6 +887,7 @@ mods:
   wrcbe:
     name: "Wireless Redstone Chicken Bones Edition"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.2.2.1:
       v1.2.1:
@@ -812,6 +895,7 @@ mods:
   xpbook:
     name: "XP Book"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       ssp-1.2.5:
       v5:
@@ -819,11 +903,13 @@ mods:
   yogbox:
     name: "Yogbox"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.1.0:
   zeppelin:
     name: "Zeppelin Mod"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.1.0.0.30:
       v1.1.0.0.28:
@@ -831,12 +917,14 @@ mods:
   z-spotlight-configs:
     name: "Mod Spotlight Configs"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       thaumcraft-v2.0.1:
   z-technic-configs:
     name: "Technic Configs"
     description: "A collection of configs for all Technic mods"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v7.1.0:
       v7.0.1:
@@ -854,6 +942,7 @@ mods:
     name: "Tekkit Configs"
     description: "A collection of configs for all Tekkit mods"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v3.1.0:
       v3.0.3:
@@ -868,6 +957,7 @@ mods:
   z-voxelmodpack-configs:
     name: "VoxelModPack Configs"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v8.1.0:
       v8.2.0:
@@ -876,12 +966,14 @@ mods:
   z-voxelmodpack-texturepacks:
     name: "VoxelModPack Texture Packs"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v8.2.0:
       v8.3.0:
   z-yogbox-configs:
     name: "Yogbox Configs"
     installtype: "zip"
+    mirrors: *technic-mirrors
     versions:
       v1.1.0:
       v1.1.1:
